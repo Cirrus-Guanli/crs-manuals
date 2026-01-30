@@ -1,0 +1,2810 @@
+{
+  "layout": "layouts/base.liquid",
+  "tags": ["manuals", "cm2017"],
+  "title": "2017 Coordinator's Manual",
+  "id": "cm2017",
+  "slug": "2017-coordinators-manual",
+  "permalink": false,
+  "contents": [
+    {
+      "group": "000",
+      "level": 0,
+      "type": "content",
+      "id": "000",
+      "title": "Foreword",
+      "anchor": "foreword",
+      "page": "iv"
+    },
+    {
+      "group": "100",
+      "level": 0,
+      "type": "content",
+      "id": "100",
+      "title": "100 Introduction",
+      "anchor": "100-introduction",
+      "page": "100-1"
+    },
+    {
+      "group": "100",
+      "level": 1,
+      "type": "content",
+      "id": "110",
+      "parent": "100",
+      "title": "110 Program Overview",
+      "anchor": "110-program-overview",
+      "page": "110-1"
+    },
+    {
+      "group": "100",
+      "level": 2,
+      "type": "content",
+      "id": "111",
+      "parent": "110",
+      "title": "111 Background",
+      "anchor": "111-background",
+      "page": "110-1"
+    },
+    {
+      "group": "100",
+      "level": 2,
+      "type": "content",
+      "id": "112",
+      "parent": "110",
+      "title": "112 Goals",
+      "anchor": "112-goals",
+      "page": "110-1"
+    },
+    {
+      "group": "100",
+      "level": 2,
+      "type": "content",
+      "id": "113",
+      "parent": "110",
+      "title": "113 Credit Points and Credited Activities",
+      "anchor": "113-credit-points-and-credited-activities",
+      "page": "110-3"
+    },
+    {
+      "group": "100",
+      "level": 2,
+      "type": "content",
+      "id": "114",
+      "parent": "110",
+      "title": "114 The Community’s Role",
+      "anchor": "114-the-communitys-role",
+      "page": "110-8"
+    },
+    {
+      "group": "100",
+      "level": 2,
+      "type": "content",
+      "id": "115",
+      "parent": "110",
+      "title": "115 Costs and Benefits",
+      "anchor": "115-costs-and-benefits",
+      "page": "110-10"
+    },
+    {
+      "group": "100",
+      "level": 2,
+      "type": "content",
+      "id": "116",
+      "parent": "110",
+      "title": "116 Other Program Priorities",
+      "anchor": "116-other-program-priorities",
+      "page": "110-11"
+    },
+    {
+      "group": "100",
+      "level": 1,
+      "type": "content",
+      "id": "120",
+      "parent": "100",
+      "title": "120 Glossary",
+      "anchor": "120-glossary",
+      "page": "120-1"
+    },
+    {
+      "group": "200",
+      "level": 0,
+      "type": "content",
+      "id": "200",
+      "title": "200 Procedures",
+      "anchor": "200-procedures",
+      "page": ""
+    },
+    {
+      "group": "200",
+      "level": 1,
+      "type": "content",
+      "id": "210",
+      "title": "210 Requesting Credit",
+      "anchor": "210-requesting-credit",
+      "page": "210-1"
+    },
+    {
+      "group": "200",
+      "level": 2,
+      "parent": "210",
+      "type": "content",
+      "id": "211",
+      "title": "211 Program Prerequisites",
+      "anchor": "211-program-prerequisites",
+      "page": "210-2"
+    },
+    {
+      "group": "200",
+      "level": 2,
+      "parent": "210",
+      "type": "content",
+      "id": "212",
+      "title": "212 Application Procedures",
+      "anchor": "212-application-procedures",
+      "page": "210-10"
+    },
+    {
+      "group": "200",
+      "level": 2,
+      "parent": "210",
+      "type": "content",
+      "id": "213",
+      "title": "213 Recertification",
+      "anchor": "213-recertification",
+      "page": "210-13"
+    },
+    {
+      "group": "200",
+      "level": 2,
+      "parent": "210",
+      "type": "content",
+      "id": "214",
+      "title": "214 Modifications",
+      "anchor": "214-modifications",
+      "page": "210-14"
+    },
+    {
+      "group": "200",
+      "level": 2,
+      "parent": "210",
+      "type": "content",
+      "id": "215",
+      "title": "215 Changes in Credit",
+      "anchor": "215-changes-in-credit",
+      "page": "210-16"
+    },
+    {
+      "group": "200",
+      "level": 1,
+      "type": "content",
+      "id": "220",
+      "title": "220 Credit Calculation",
+      "anchor": "220-credit-calculation",
+      "page": "220-1"
+    },
+    {
+      "group": "200",
+      "level": 2,
+      "parent": "220",
+      "type": "content",
+      "id": "221",
+      "title": "221 Step 1. Element Credit Points",
+      "anchor": "221-step-1-element-credit-points",
+      "page": "220-5"
+    },
+    {
+      "group": "200",
+      "level": 2,
+      "parent": "220",
+      "type": "content",
+      "id": "222",
+      "title": "222 Step 2. Impact Adjustment",
+      "anchor": "222-step-2-impact-adjustment",
+      "page": "220-6"
+    },
+    {
+      "group": "200",
+      "level": 2,
+      "parent": "220",
+      "type": "content",
+      "id": "223",
+      "title": "223 Step 3. Credit Calculation",
+      "anchor": "223-step-3-credit-calculation",
+      "page": "220-8"
+    },
+    {
+      "group": "200",
+      "level": 2,
+      "parent": "220",
+      "type": "content",
+      "id": "224",
+      "title": "224 Step 4. County Growth Adjustment",
+      "anchor": "224-step-4-county-growth-adjustment",
+      "page": "220-9"
+    },
+    {
+      "group": "200",
+      "level": 2,
+      "parent": "220",
+      "type": "content",
+      "id": "225",
+      "title": "225 Step 5. Community Classification",
+      "anchor": "225-step-5-community-classification",
+      "page": "220-9"
+    },
+    {
+      "group": "200",
+      "level": 1,
+      "type": "content",
+      "id": "230",
+      "title": "230 Verification",
+      "anchor": "230-verification",
+      "page": "230-1"
+    },
+    {
+      "group": "200",
+      "level": 2,
+      "parent": "230",
+      "type": "content",
+      "id": "231",
+      "title": "231 Documentation Provided by the Community",
+      "anchor": "231-documentation-provided-by-the-community",
+      "page": "230-2"
+    },
+    {
+      "group": "200",
+      "level": 2,
+      "parent": "230",
+      "type": "content",
+      "id": "232",
+      "title": "232 Verification Visit",
+      "anchor": "232-verification-visit",
+      "page": "230-6"
+    },
+    {
+      "group": "200",
+      "level": 2,
+      "parent": "230",
+      "type": "content",
+      "id": "233",
+      "title": "233 Post-visit Actions",
+      "anchor": "233-post-visit-actions",
+      "page": "230-9"
+    },
+    {
+      "group": "200",
+      "level": 1,
+      "type": "content",
+      "id": "240",
+      "title": "240 Community Self-Assessment",
+      "anchor": "240-community-self-assessment",
+      "page": "240-1"
+    },
+    {
+      "group": "300",
+      "level": 0,
+      "type": "content",
+      "title": "300 Public Information",
+      "anchor": "300-public-information",
+      "page": "300-1"
+    },
+    {
+      "group": "300",
+      "level": 1,
+      "type": "content",
+      "id": "301",
+      "title": "301 Construction Certificate Requirements",
+      "anchor": "301-construction-certificate-requirements",
+      "page": "300-3"
+    },
+    {
+      "group": "300",
+      "level": 1,
+      "type": "content",
+      "id": "302",
+      "title": "302 Impact Adjustments for Buildings",
+      "anchor": "302-impact-adjustments-for-buildings",
+      "page": "300-8"
+    },
+    {
+      "group": "300",
+      "level": 1,
+      "type": "content",
+      "id": "303",
+      "title": "303 Impact Adjustment Ratio",
+      "anchor": "303-impact-adjustment-ratio",
+      "page": "300-9"
+    },
+    {
+      "group": "300",
+      "level": 1,
+      "type": "content",
+      "id": "310",
+      "title": "310 Elevation Certificates",
+      "anchor": "310-elevation-certificates",
+      "page": "310-1"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "310",
+      "type": "content",
+      "id": "311",
+      "title": "311 Background",
+      "anchor": "311-background",
+      "page": "310-2"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "310",
+      "type": "content",
+      "id": "312",
+      "title": "312 Elements",
+      "anchor": "312-elements",
+      "page": "310-4"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "310",
+      "type": "content",
+      "id": "313",
+      "title": "313 Credit Calculation",
+      "anchor": "313-credit-calculation",
+      "page": "310-10"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "310",
+      "type": "content",
+      "id": "314",
+      "title": "314 Related Activities under the Community Rating System",
+      "anchor": "314-related-activities-under-the-community-rating-system",
+      "page": "310-11"
+    },
+    {
+      "group": "300",
+      "level": 1,
+      "type": "content",
+      "id": "320",
+      "title": "320 Map Information Service",
+      "anchor": "320-map-information-service",
+      "page": "320-1"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "320",
+      "type": "content",
+      "id": "321",
+      "title": "321 Background",
+      "anchor": "321-background",
+      "page": "320-2"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "320",
+      "type": "content",
+      "id": "322",
+      "title": "322 Elements",
+      "anchor": "322-elements",
+      "page": "320-9"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "320",
+      "type": "content",
+      "id": "323",
+      "title": "323 Impact Adjustment",
+      "anchor": "323-impact-adjustment",
+      "page": "320-17"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "320",
+      "type": "content",
+      "id": "324",
+      "title": "324 Credit Calculation",
+      "anchor": "324-credit-calculation",
+      "page": "320-17"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "320",
+      "type": "content",
+      "id": "325",
+      "title": "325 Documentation Provided by the Community",
+      "anchor": "325-documentation-provided-by-the-community",
+      "page": "320-17"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "320",
+      "type": "content",
+      "id": "326",
+      "title": "326 Related Activities under the Community Rating System",
+      "anchor": "326-related-activities-under-the-community-rating-system",
+      "page": "320-18"
+    },
+    {
+      "group": "300",
+      "level": 1,
+      "type": "content",
+      "id": "330",
+      "title": "330 Outreach Projects",
+      "anchor": "330-outreach-projects",
+      "page": "330-1"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "330",
+      "type": "content",
+      "id": "331",
+      "title": "331 Background",
+      "anchor": "331-background",
+      "page": "330-2"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "330",
+      "type": "content",
+      "id": "332",
+      "title": "332 Elements",
+      "anchor": "332-elements",
+      "page": "330-6"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "330",
+      "type": "content",
+      "id": "333",
+      "title": "333 Impact Adjustment",
+      "anchor": "333-impact-adjustment",
+      "page": "330-26"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "330",
+      "type": "content",
+      "id": "334",
+      "title": "334 Credit Calculation",
+      "anchor": "334-credit-calculation",
+      "page": "330-26"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "330",
+      "type": "content",
+      "id": "335",
+      "title": "335 Related Activities under the Community Rating System",
+      "anchor": "335-related-activities-under-the-community-rating-system",
+      "page": "330-26"
+    },
+    {
+      "group": "300",
+      "level": 1,
+      "type": "content",
+      "id": "340",
+      "title": "340 Hazard Disclosure",
+      "anchor": "340-hazard-disclosure",
+      "page": "340-1"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "340",
+      "type": "content",
+      "id": "341",
+      "title": "341 Background",
+      "anchor": "341-background",
+      "page": "340-2"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "340",
+      "type": "content",
+      "id": "342",
+      "title": "342 Elements",
+      "anchor": "342-elements",
+      "page": "340-3"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "340",
+      "type": "content",
+      "id": "343",
+      "title": "343 Impact Adjustment",
+      "anchor": "343-impact-adjustment",
+      "page": "340-11"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "340",
+      "type": "content",
+      "id": "344",
+      "title": "344 Credit Calculation",
+      "anchor": "344-credit-calculation",
+      "page": "340-11"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "340",
+      "type": "content",
+      "id": "345",
+      "title": "345 Related Activities under the Community Rating System",
+      "anchor": "345-related-activities-under-the-community-rating-system",
+      "page": "340-11"
+    },
+    {
+      "group": "300",
+      "level": 1,
+      "type": "content",
+      "id": "350",
+      "title": "350 Flood Protection Information",
+      "anchor": "350-flood-protection-information",
+      "page": "350-1"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "350",
+      "type": "content",
+      "id": "351",
+      "title": "351 Background",
+      "anchor": "351-background",
+      "page": "350-2"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "350",
+      "type": "content",
+      "id": "352",
+      "title": "352 Elements",
+      "anchor": "352-elements",
+      "page": "350-4"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "350",
+      "type": "content",
+      "id": "353",
+      "title": "353 Impact Adjustment",
+      "anchor": "353-impact-adjustment",
+      "page": "350-11"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "350",
+      "type": "content",
+      "id": "354",
+      "title": "354 Credit Calculation",
+      "anchor": "354-credit-calculation",
+      "page": "350-11"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "350",
+      "type": "content",
+      "id": "355",
+      "title": "355 Related Activities under the Community Rating System",
+      "anchor": "355-related-activities-under-the-community-rating-system",
+      "page": "350-11"
+    },
+
+    {
+      "group": "300",
+      "level": 1,
+      "type": "content",
+      "id": "360",
+      "title": "360 Flood Protection Assistance",
+      "anchor": "360-flood-protection-assistance",
+      "page": "360-1"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "360",
+      "type": "content",
+      "id": "361",
+      "title": "361 Background",
+      "anchor": "361-background",
+      "page": "360-2"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "360",
+      "type": "content",
+      "id": "362",
+      "title": "362 Elements",
+      "anchor": "362-elements",
+      "page": "360-4"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "360",
+      "type": "content",
+      "id": "363",
+      "title": "363 Impact Adjustment",
+      "anchor": "363-impact-adjustment",
+      "page": "360-12"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "360",
+      "type": "content",
+      "id": "364",
+      "title": "364 Credit Calculation",
+      "anchor": "364-credit-calculation",
+      "page": "360-12"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "360",
+      "type": "content",
+      "id": "365",
+      "title": "365 Related Activities under the Community Rating System",
+      "anchor": "365-related-activities-under-the-community-rating-system",
+      "page": "360-12"
+    },
+    {
+      "group": "300",
+      "level": 1,
+      "type": "content",
+      "id": "370",
+      "title": "370 Flood Insurance Promotion",
+      "anchor": "370-flood-insurance-promotion",
+      "page": "370-1"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "370",
+      "type": "content",
+      "id": "371",
+      "title": "371 Background",
+      "anchor": "371-background",
+      "page": "370-2"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "370",
+      "type": "content",
+      "id": "372",
+      "title": "372 Elements",
+      "anchor": "372-elements",
+      "page": "370-3"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "370",
+      "type": "content",
+      "id": "373",
+      "title": "373 Impact Adjustment",
+      "anchor": "373-impact-adjustment",
+      "page": "370-17"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "370",
+      "type": "content",
+      "id": "374",
+      "title": "374 Credit Calculation",
+      "anchor": "374-credit-calculation",
+      "page": "370-17"
+    },
+    {
+      "group": "300",
+      "level": 2,
+      "parent": "370",
+      "type": "content",
+      "id": "375",
+      "title": "375 Related Activities under the Community Rating System",
+      "anchor": "375-related-activities-under-the-community-rating-system",
+      "page": "370-17"
+    },
+    {
+      "group": "400",
+      "level": 0,
+      "type": "content",
+      "title": "400 Mapping and Regulations",
+      "anchor": "400-mapping-and-regulations",
+      "page": "400-1"
+    },
+    {
+      "group": "400",
+      "level": 1,
+      "type": "content",
+      "id": "401",
+      "parent": "400",
+      "title": "401 Special Flood-related Hazard Areas",
+      "anchor": "401-special-flood-related-hazard-areas",
+      "page": "400-3"
+    },
+    {
+      "group": "400",
+      "level": 1,
+      "type": "content",
+      "id": "402",
+      "parent": "400",
+      "title": "402 Impact Adjustment for Areas",
+      "anchor": "402-impact-adjustment-for-areas",
+      "page": "400-4"
+    },
+    {
+      "group": "400",
+      "level": 1,
+      "type": "content",
+      "id": "403",
+      "parent": "400",
+      "title": "403 Impact Adjustment Map",
+      "anchor": "403-impact-adjustment-map",
+      "page": "400-7"
+    },
+    {
+      "group": "400",
+      "level": 1,
+      "type": "content",
+      "id": "410",
+      "parent": "400",
+      "title": "410 Flood Hazard Mapping",
+      "anchor": "410-flood-hazard-mapping",
+      "page": "410-1"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "411",
+      "parent": "410",
+      "title": "411 Background",
+      "anchor": "411-background",
+      "page": "410-3"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "412",
+      "parent": "410",
+      "title": "412 Elements",
+      "anchor": "412-elements",
+      "page": "410-10"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "413",
+      "parent": "410",
+      "title": "413 Impact Adjustment",
+      "anchor": "413-impact-adjustment",
+      "page": "410-34"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "414",
+      "parent": "410",
+      "title": "414 Credit Calculation",
+      "anchor": "414-credit-calculation",
+      "page": "410-35"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "415",
+      "parent": "410",
+      "title": "415 Related Activities under the Community Rating System",
+      "anchor": "415-related-activities-under-the-community-rating-system",
+      "page": "410-37"
+    },
+    {
+      "group": "400",
+      "level": 1,
+      "type": "content",
+      "id": "420",
+      "parent": "400",
+      "title": "420 Open Space Preservation",
+      "anchor": "420-open-space-preservation",
+      "page": "420-1"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "421",
+      "parent": "420",
+      "title": "421 Background",
+      "anchor": "421-background",
+      "page": "420-2"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "422",
+      "parent": "420",
+      "title": "422 Elements",
+      "anchor": "422-elements",
+      "page": "420-3"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "423",
+      "parent": "420",
+      "title": "423 Credit Calculation",
+      "anchor": "423-credit-calculation",
+      "page": "420-35"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "424",
+      "parent": "420",
+      "title": "424 Related Activities under the Community Rating System",
+      "anchor": "424-related-activities-under-the-community-rating-system",
+      "page": "420-36"
+    },
+
+    {
+      "group": "400",
+      "level": 1,
+      "type": "content",
+      "id": "430",
+      "parent": "400",
+      "title": "430 Higher Regulatory Standards",
+      "anchor": "430-higher-regulatory-standards",
+      "page": "430-1"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "431",
+      "parent": "430",
+      "title": "431 Background",
+      "anchor": "431-background",
+      "page": "430-3"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "432",
+      "parent": "430",
+      "title": "432 Elements",
+      "anchor": "432-elements",
+      "page": "430-8"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "433",
+      "parent": "430",
+      "title": "433 Credit Calculation",
+      "anchor": "433-credit-calculation",
+      "page": "430-67"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "434",
+      "parent": "430",
+      "title": "434 Related Activities under the Community Rating System",
+      "anchor": "434-related-activities-under-the-community-rating-system",
+      "page": "430-71"
+    },
+    {
+      "group": "400",
+      "level": 1,
+      "type": "content",
+      "id": "440",
+      "parent": "400",
+      "title": "440 Flood Data Maintenance",
+      "anchor": "440-flood-data-maintenance",
+      "page": "440-1"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "441",
+      "parent": "440",
+      "title": "441 Background",
+      "anchor": "441-background",
+      "page": "440-2"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "442",
+      "parent": "440",
+      "title": "442 Elements",
+      "anchor": "442-elements",
+      "page": "440-3"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "443",
+      "parent": "440",
+      "title": "443 Credit Calculation",
+      "anchor": "443-credit-calculation",
+      "page": "440-15"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "444",
+      "parent": "440",
+      "title": "444 Related Activities under the Community Rating System",
+      "anchor": "444-related-activities-under-the-community-rating-system",
+      "page": "440-15"
+    },
+    {
+      "group": "400",
+      "level": 1,
+      "type": "content",
+      "id": "450",
+      "parent": "400",
+      "title": "450 Stormwater Management",
+      "anchor": "450-stormwater-management",
+      "page": "450-1"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "451",
+      "parent": "450",
+      "title": "451 Background",
+      "anchor": "451-background",
+      "page": "450-2"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "452",
+      "parent": "450",
+      "title": "452 Elements",
+      "anchor": "452-elements",
+      "page": "450-4"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "453",
+      "parent": "450",
+      "title": "453 Credit Calculation",
+      "anchor": "453-credit-calculation",
+      "page": "450-21"
+    },
+    {
+      "group": "400",
+      "level": 2,
+      "type": "content",
+      "id": "454",
+      "parent": "450",
+      "title": "454 Related Activities under the Community Rating System",
+      "anchor": "454-related-activities-under-the-community-rating-system",
+      "page": "450-21"
+    },
+    {
+      "group": "500",
+      "level": 0,
+      "type": "content",
+      "title": "500 Flood Damage Reduction Activities",
+      "anchor": "500-flood-damage-reduction-activities",
+      "page": "500-1"
+    },
+    {
+      "group": "500",
+      "level": 1,
+      "id": "501",
+      "parent": "500",
+      "type": "content",
+      "title": "501 The Repetitive Loss List",
+      "anchor": "501-the-repetitive-loss-list",
+      "page": "500-3"
+    },
+    {
+      "group": "500",
+      "level": 1,
+      "id": "502",
+      "parent": "500",
+      "type": "content",
+      "title": "502 Repetitive Loss Category",
+      "anchor": "502-repetitive-loss-category",
+      "page": "500-5"
+    },
+    {
+      "group": "500",
+      "level": 1,
+      "id": "503",
+      "parent": "500",
+      "type": "content",
+      "title": "503 Repetitive Loss Areas",
+      "anchor": "503-repetitive-loss-areas",
+      "page": "500-7"
+    },
+    {
+      "group": "500",
+      "level": 1,
+      "id": "504",
+      "parent": "500",
+      "type": "content",
+      "title": "504 Repetitive Loss Area Outreach Project",
+      "anchor": "504-repetitive-loss-area-outreach-project",
+      "page": "500-9"
+    },
+    {
+      "group": "500",
+      "level": 1,
+      "id": "505",
+      "parent": "500",
+      "type": "content",
+      "title": "505 Repetitive Loss Mitigation Activities",
+      "anchor": "505-repetitive-loss-mitigation-activities",
+      "page": "500-12"
+    },
+    {
+      "group": "500",
+      "level": 1,
+      "id": "506",
+      "parent": "500",
+      "type": "content",
+      "title": "506 National Flood Insurance Reform Act of 1994",
+      "anchor": "506-national-flood-insurance-reform-act-of-1994",
+      "page": "500-13"
+    },
+    {
+      "group": "500",
+      "level": 1,
+      "id": "507",
+      "parent": "500",
+      "type": "content",
+      "title": "507 Compliance with Provisions for Environmental and Historic Preservation",
+      "anchor": "507-compliance-with-provisions-for-environmental-and-historic-preservation",
+      "page": "500-14"
+    },
+    {
+      "group": "500",
+      "level": 1,
+      "id": "510",
+      "parent": "500",
+      "type": "content",
+      "title": "510 Floodplain Management Planning",
+      "anchor": "510-floodplain-management-planning",
+      "page": "510-1"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "511",
+      "parent": "510",
+      "type": "content",
+      "title": "511 Background",
+      "anchor": "511-background",
+      "page": "510-2"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "512",
+      "parent": "510",
+      "type": "content",
+      "title": "512 Elements",
+      "anchor": "512-elements",
+      "page": "510-4"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "513",
+      "parent": "510",
+      "type": "content",
+      "title": "513 Credit Calculation",
+      "anchor": "513-credit-calculation",
+      "page": "510-49"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "514",
+      "parent": "510",
+      "type": "content",
+      "title": "514 Related Activities under the Community Rating System",
+      "anchor": "514-related-activities-under-the-community-rating-system",
+      "page": "510-49"
+    },
+    {
+      "group": "500",
+      "level": 1,
+      "id": "520",
+      "parent": "500",
+      "type": "content",
+      "title": "520 Acquisition and Relocation",
+      "anchor": "520-acquisition-and-relocation",
+      "page": "520-1"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "521",
+      "parent": "520",
+      "type": "content",
+      "title": "521 Background",
+      "anchor": "521-background",
+      "page": "520-2"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "522",
+      "parent": "520",
+      "type": "content",
+      "title": "522 Elements",
+      "anchor": "522-elements",
+      "page": "520-4"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "523",
+      "parent": "520",
+      "type": "content",
+      "title": "523 Credit Calculation",
+      "anchor": "523-credit-calculation",
+      "page": "520-8"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "524",
+      "parent": "520",
+      "type": "content",
+      "title": "524 Documentation Provided by the Community",
+      "anchor": "524-documentation-provided-by-the-community",
+      "page": "520-12"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "525",
+      "parent": "520",
+      "type": "content",
+      "title": "525 Related Activities under the Community Rating System",
+      "anchor": "525-related-activities-under-the-community-rating-system",
+      "page": "520-13"
+    },
+    {
+      "group": "500",
+      "level": 1,
+      "id": "530",
+      "parent": "500",
+      "type": "content",
+      "title": "530 Flood Protection",
+      "anchor": "530-flood-protection",
+      "page": "530-1"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "531",
+      "parent": "530",
+      "type": "content",
+      "title": "531 Background",
+      "anchor": "531-background",
+      "page": "530-2"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "532",
+      "parent": "530",
+      "type": "content",
+      "title": "532 Elements",
+      "anchor": "532-elements",
+      "page": "530-7"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "533",
+      "parent": "530",
+      "type": "content",
+      "title": "533 Credit Calculation",
+      "anchor": "533-credit-calculation",
+      "page": "530-14"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "534",
+      "parent": "530",
+      "type": "content",
+      "title": "534 Documentation Provided by the Community",
+      "anchor": "534-documentation-provided-by-the-community",
+      "page": "530-17"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "535",
+      "parent": "530",
+      "type": "content",
+      "title": "535 Related Activities under the Community Rating System",
+      "anchor": "535-related-activities-under-the-community-rating-system",
+      "page": "530-18"
+    },
+    {
+      "group": "500",
+      "level": 1,
+      "id": "540",
+      "parent": "500",
+      "type": "content",
+      "title": "540 Drainage System Maintenance",
+      "anchor": "540-drainage-system-maintenance",
+      "page": "540-1"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "541",
+      "parent": "540",
+      "type": "content",
+      "title": "541 Background",
+      "anchor": "541-background",
+      "page": "540-2"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "542",
+      "parent": "540",
+      "type": "content",
+      "title": "542 Elements",
+      "anchor": "542-elements",
+      "page": "540-6"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "543",
+      "parent": "540",
+      "type": "content",
+      "title": "543 Credit Calculation",
+      "anchor": "543-credit-calculation",
+      "page": "540-24"
+    },
+    {
+      "group": "500",
+      "level": 2,
+      "id": "544",
+      "parent": "540",
+      "type": "content",
+      "title": "544 Related Activities under the Community Rating System",
+      "anchor": "544-related-activities-under-the-community-rating-system",
+      "page": "540-24"
+    },
+    {
+      "group": "600",
+      "level": 0,
+      "type": "content",
+      "title": "600 Warning and Response",
+      "anchor": "600-warning-and-response"
+    },
+
+    {
+      "group": "600",
+      "level": 1,
+      "id": "610",
+      "parent": "600",
+      "type": "content",
+      "title": "610 Flood Warning and Response",
+      "anchor": "610-flood-warning-and-response",
+      "page": "610-1"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "611",
+      "parent": "610",
+      "type": "content",
+      "title": "611 Background",
+      "anchor": "611-background",
+      "page": "610-3"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "612",
+      "parent": "610",
+      "type": "content",
+      "title": "612 Elements",
+      "anchor": "612-elements",
+      "page": "610-10"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "613",
+      "parent": "610",
+      "type": "content",
+      "title": "613 Impact Adjustment",
+      "anchor": "613-impact-adjustment",
+      "page": "610-27"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "614",
+      "parent": "610",
+      "type": "content",
+      "title": "614 Credit Calculation",
+      "anchor": "614-credit-calculation",
+      "page": "610-29"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "615",
+      "parent": "610",
+      "type": "content",
+      "title": "615 Related Activities under the Community Rating System",
+      "anchor": "615-related-activities-under-the-community-rating-system",
+      "page": "610-30"
+    },
+    {
+      "group": "600",
+      "level": 1,
+      "id": "620",
+      "parent": "600",
+      "type": "content",
+      "title": "620 Levees",
+      "anchor": "620-levees",
+      "page": "620-1"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "621",
+      "parent": "620",
+      "type": "content",
+      "title": "621 Background",
+      "anchor": "621-background",
+      "page": "620-3"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "622",
+      "parent": "620",
+      "type": "content",
+      "title": "622 Elements",
+      "anchor": "622-elements",
+      "page": "620-9"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "623",
+      "parent": "620",
+      "type": "content",
+      "title": "623 Impact Adjustment",
+      "anchor": "623-impact-adjustment",
+      "page": "620-21"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "624",
+      "parent": "620",
+      "type": "content",
+      "title": "624 Credit Calculation",
+      "anchor": "624-credit-calculation",
+      "page": "620-22"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "625",
+      "parent": "620",
+      "type": "content",
+      "title": "625 Related Activities under the Community Rating System",
+      "anchor": "625-related-activities-under-the-community-rating-system",
+      "page": "620-22"
+    },
+    {
+      "group": "600",
+      "level": 1,
+      "id": "630",
+      "parent": "600",
+      "type": "content",
+      "title": "630 Dams",
+      "anchor": "630-dams",
+      "page": "630-1"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "631",
+      "parent": "630",
+      "type": "content",
+      "title": "631 Background",
+      "anchor": "631-background",
+      "page": "630-2"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "632",
+      "parent": "630",
+      "type": "content",
+      "title": "632 Elements",
+      "anchor": "632-elements",
+      "page": "630-6"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "633",
+      "parent": "630",
+      "type": "content",
+      "title": "633 Impact Adjustment",
+      "anchor": "633-impact-adjustment",
+      "page": "630-15"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "634",
+      "parent": "630",
+      "type": "content",
+      "title": "634 Credit Calculation",
+      "anchor": "634-credit-calculation",
+      "page": "630-16"
+    },
+    {
+      "group": "600",
+      "level": 2,
+      "id": "635",
+      "parent": "630",
+      "type": "content",
+      "title": "635 Related Activities under the Community Rating System",
+      "anchor": "635-related-activities-under-the-community-rating-system",
+      "page": "630-16"
+    },
+    {
+      "group": "700",
+      "level": 0,
+      "type": "content",
+      "title": "700 Community Classification Calculations",
+      "anchor": "700-community-classification-calculations"
+    },
+    {
+      "group": "700",
+      "level": 1,
+      "id": "710",
+      "parent": "700",
+      "type": "content",
+      "title": "710 County Growth Adjustment",
+      "anchor": "710-county-growth-adjustment",
+      "page": "710-1"
+    },
+    {
+      "group": "700",
+      "level": 2,
+      "id": "711",
+      "parent": "710",
+      "type": "content",
+      "title": "711 Growth Data",
+      "anchor": "711-growth-data",
+      "page": "710-1"
+    },
+    {
+      "group": "700",
+      "level": 2,
+      "id": "712",
+      "parent": "710",
+      "type": "content",
+      "title": "712 Growth Adjustment Calculation",
+      "anchor": "712-growth-adjustment-calculation",
+      "page": "710-1"
+    },
+    {
+      "group": "700",
+      "level": 2,
+      "id": "713",
+      "parent": "710",
+      "type": "content",
+      "title": "713 Credit Documentation",
+      "anchor": "713-credit-documentation",
+      "page": "710-3"
+    },
+    {
+      "group": "700",
+      "level": 1,
+      "id": "720",
+      "parent": "700",
+      "type": "content",
+      "title": "720 Community Total Points",
+      "anchor": "720-community-total-points",
+      "page": "720-1"
+    },
+    {
+      "group": "800",
+      "level": 0,
+      "type": "content",
+      "title": "Appendix A: Acronyms",
+      "anchor": "appendix-a-acronyms",
+      "page": "A-1"
+    },
+    {
+      "group": "800",
+      "level": 0,
+      "type": "content",
+      "title": "Appendix B: Comparison of the Minimum NFIP Requirements and the Community Rating System",
+      "anchor": "appendix-b-comparison-of-the-minimum-nfip-requirements-and-the-community-rating-system",
+      "page": "B-1"
+    },
+    {
+      "group": "800",
+      "level": 0,
+      "type": "content",
+      "title": "Appendix C: CRS Publications",
+      "anchor": "appendix-c-crs-publications",
+      "page": "C-1"
+    },
+    {
+      "group": "900",
+      "level": 0,
+      "type": "content",
+      "title": "Community Index",
+      "anchor": "community-index",
+      "page": "i-1"
+    },
+    {
+      "group": "100",
+      "level": 2,
+      "type": "table",
+      "id": "110-1",
+      "parent": "110",
+      "title": "CRS classes, credit points, and premium discounts",
+      "anchor": "table-110-1",
+      "page": ""
+    },
+    {
+      "group": "200",
+      "level": 2,
+      "type": "figure",
+      "id": "210-1",
+      "parent": "210",
+      "title": "The CRS Program Data Table",
+      "anchor": "figure-210-1",
+      "page": ""
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Activity",
+      "definition": "A floodplain management activity for which Community Rating System credit has been established."
+    },
+    {
+      "term": "Allowable surcharge",
+      "definition": "The acceptable limit of increased flood elevation in the floodway due to obstruction of the floodway fringe."
+    },
+    {
+      "term": "Alluvial fan",
+      "definition": "An area at the base of a valley where the slope flattens out, allowing floodwater to decrease in speed and spread out, dropping sediment over a fan-shaped area. Credit for managing alluvial fan hazards is discussed in Section 400."
+    },
+    {
+      "term": "B Zone",
+      "definition": "See \"Zone B.\""
+    },
+    {
+      "term": "Base flood",
+      "definition": "The flood having a 1% chance of being equaled or exceeded in any given year, also known as the \"100-year\" or \"1% chance\" flood. The base flood is a statistical concept used to ensure that all properties subject to the National Flood Insurance Program are protected to the same degree against flooding."
+    },
+    {
+      "term": "BFE",
+      "definition": "Base flood elevation. The elevation of the crest of the base or 1% annual chance flood (also known as the 100-year flood)."
+    },
+    {
+      "term": "Building",
+      "definition": "For CRS purposes, the definition of what constitutes a building is based on whether the structure is insurable. It must meet the following criteria, which are taken from the definition in the National Flood Insurance Program’s “Flood Insurance Manual” for insurance agents. A “building” is:\n\n> A structure with two or more rigid outside walls and a fully secured roof that is affixed to a permanent site; or\n>\n> A manufactured home (a “manufactured home,” also known as a mobile home, is a structure built on a permanent chassis, transported to its site in one or more sections, and affixed to a permanent foundation); or\n>\n> A travel trailer without wheels, built on a chassis and affixed to a permanent foundation, that is regulated under the community’s floodplain management and building ordinances or laws.\n\n“Building” does not mean a gas or liquid storage tank or a recreational vehicle, a park trailer, or other similar vehicle, except as described above."
+    },
+    {
+      "term": "C Zone",
+      "definition": "See \"Zone C.\""
+    },
+    {
+      "term": "CBRA",
+      "definition": "The Coastal Barrier Resources Act of 1982 (pronounced \"cobra\")."
+    },
+    {
+      "term": "CEO",
+      "definition": "The Chief Executive Officer of a community, i.e., the official who is charged with the authority to implement and administer laws, ordinances, and regulations for the community. The CEO may be a mayor, city or county manager, county executive, chair or president of a county council, etc. The head of a department is not considered a CEO."
+    },
+    {
+      "term": "Coastal",
+      "definition": "Relating to the coastlines and bays of the tidal waters of the United States or the shorelines of the Great Lakes. The term does not include riverine areas."
+    },
+    {
+      "term": "Coastal A Zone",
+      "definition": "Those parts of a community's coastal floodplain that are subject to waves with heights of between 1.5 and 3 feet during a 1% annual chance storm. The exact boundary of a Coastal A Zone is determined by the community, as described in Section 432.k, although FEMA may provide a proposed boundary or \"limit of moderate wave action\" (LiMWA) on Flood Insurance Rate Maps."
+    },
+    {
+      "term": "Coastal Barrier Resources System",
+      "definition": "A set of \"undeveloped coastal barriers\" and \"otherwise protected areas\" along the U.S. coast (including the Great Lakes) designated by Congress under the Coastal Barrier Resources Act of 1982 (CBRA). Most expenditures of federal funds are prohibited within the Coastal Barrier Resources System."
+    },
+    {
+      "term": "Coastal erosion",
+      "definition": "The wearing away of land masses caused primarily by coastal waves on shorelines adjacent to tidal waters."
+    },
+    {
+      "term": "Coastal erosion-prone area",
+      "definition": "The coastal areas within which waves are anticipated to cause significant erosion and shoreline retreat within the next 60 years."
+    },
+    {
+      "term": "Coastal high hazard flooding",
+      "definition": "A condition of flooding subject to high velocity waters, including, but not limited to, hurricane wave wash or tsunamis. Coastal high hazard flooding is mapped as a Zone V or \"limit of moderate wave action\" on a Flood Insurance Rate Map. Coastal flooding without the high velocity hazard is mapped as a Zone A."
+    },
+    {
+      "term": "Community",
+      "definition": "A city, village, town, county, township, parish, borough, Indian tribe or authorized tribal organization, Alaska Native village or authorized native organization, or other local government with the statutory authority to enact floodplain regulations and participate in the National Flood Insurance Program."
+    },
+    {
+      "term": "Contour",
+      "definition": "A line of equal elevation on a topographic (contour) map."
+    },
+    {
+      "term": "Conveyance system",
+      "definition": "For purposes of the CRS, the conveyance system includes the channels that need to be maintained to prevent damage to buildings or roads and other infrastructure from smaller, more frequent storms. Components include structures and channel segments (e.g., bridges, culverts, and segments of open channel) through which water flows."
+    },
+    {
+      "term": "Critical facility",
+      "definition": "A structure or other improvement that, because of its function, size, service area, or uniqueness, has the potential to cause serious bodily harm, extensive property damage, or disruption of vital socioeconomic activities if it is destroyed or damaged or if its functionality is impaired. Includes health and safety facilities, utilities, government facilities, and hazardous materials facilities. For local regulation, a community may also use the International Codes' definition for Category III and IV buildings."
+    },
+    {
+      "term": "CRS",
+      "definition": "Community Rating System."
+    },
+    {
+      "term": "CRS classification",
+      "definition": "A rating of a community's floodplain management program according to the \"Coordinator's Manual.\" The premium rate credits for each class are listed in Table 110-1. A community that has not applied for CRS classification is a Class 10 community."
+    },
+    {
+      "term": "Contractor",
+      "definition": "An individual responsible for reviewing community requests for Community Rating System classification and verifying implementation of activities credited by the CRS. The name of the Contractor for a state can be found at www.crsresources.org."
+    },
+    {
+      "term": "CRS Coordinator",
+      "definition": "A local official designated by the community's Chief Executive Officer to coordinate the community's CRS activities and work with FEMA and the Insurance Services Office, Inc. to document and verify the community's program."
+    },
+    {
+      "term": "Coordinator's Manual",
+      "definition": "A publication for local officials that describes the procedures, credit criteria, and activities credited by the Community Rating System. It is available from FEMA or Insurance Services Office, Inc."
+    },
+    {
+      "term": "Cycle",
+      "definition": "A periodic review, scoring, and verification of a community's Community Rating System activities, normally done on a 3- or 5-year cycle."
+    },
+    {
+      "term": "D Zone",
+      "definition": "See \"Zone D.\""
+    },
+    {
+      "term": "Datum",
+      "definition": "A reference surface used to ensure that all elevation records are properly related. The NFIP previously used NGVD 29, but recent FIRMs use NAVD 88. Both express elevations relative to sea level. The FIRM indicates the datum that applies to the community."
+    },
+    {
+      "term": "Debris",
+      "definition": "Trash, junk, litter, discarded remains of something destroyed, landscape waste, or vegetation that may reduce the conveyance capacity of a channel or the storage or infiltration capacity of a basin."
+    },
+    {
+      "term": "Development",
+      "definition": "Any manmade change to improved or unimproved real estate including, but not limited to, buildings or other structures, mining, dredging, filling, grading, paving, excavation, drilling operations, or storage of equipment or materials."
+    },
+    {
+      "term": "Digital Flood Insurance Rate Map (DFIRM)",
+      "definition": "All new FIRMs are prepared as a GIS-based map of a community's flood hazards. All new maps are based upon this digital platform and communities may use these maps instead of paper maps for regulatory purposes. See FIRM."
+    },
+    {
+      "term": "Discharge",
+      "definition": "The amount of water that passes a point in a given period of time. Rate of discharge is usually measured in cubic feet per second (cfs)."
+    },
+    {
+      "term": "Drainage system",
+      "definition": "For the CRS, a community's drainage system consists of all natural and manmade watercourses, conduits, and storage basins that must be maintained in order to prevent flood damage to buildings from smaller, more frequent storms."
+    },
+    {
+      "term": "Element",
+      "definition": "A discrete piece of a floodplain management program that is credited as part of a Community Rating System activity."
+    },
+    {
+      "term": "FEMA",
+      "definition": "The Federal Emergency Management Agency. Most NFIP field work and community coordination is done by the 10 FEMA Regional Offices."
+    },
+    {
+      "term": "FIRM",
+      "definition": "Flood Insurance Rate Map. An official map of a community, on which FEMA has delineated both the Special Flood Hazard Areas and the risk premium zones applicable to the community. Most FIRMs include detailed floodplain mapping for some or all of a community's floodplains. In most cases, the date of the first FIRM issued to a community is the date the community entered the Regular Program of the NFIP."
+    },
+    {
+      "term": "Flood Insurance Study",
+      "definition": "A report published by FEMA for a community in conjunction with the community's FIRM. It contains background data such as base flood discharges and water surface elevations that were used to prepare the FIRM. A community FIRM with detailed mapping will usually have a corresponding study."
+    },
+    {
+      "term": "Floodplain",
+      "definition": "Any land area susceptible to being inundated by flood waters from any source. A FIRM identifies most, but not necessarily all, of a community's floodplain as the Special Flood Hazard Area."
+    },
+    {
+      "term": "Floodproofing",
+      "definition": "Protective measures added to or incorporated in a building that is not elevated above the base flood elevation to prevent or minimize flood damage. \"Dry floodproofing\" keeps water from entering a building. \"Wet floodproofing\" minimizes damage from water allowed into a building."
+    },
+    {
+      "term": "Floodway",
+      "definition": "The channel of a river and the portion of the overbank floodplain that must be reserved in order to discharge the base flood without cumulatively increasing the water surface elevation by a designated height. NFIP regulations allow construction in the floodway provided it does not obstruct flows or increase flood heights. Floodway fringe: the portion of the SFHA lying outside of the floodway."
+    },
+    {
+      "term": "Freeboard",
+      "definition": "A margin of safety added to the base flood elevation to account for waves, debris, miscalculations, or lack of data."
+    },
+    {
+      "term": "Green infrastructure",
+      "definition": "Because the term is widely interpreted, the CRS does not use \"green infrastructure\" in its credit criteria. However, the CRS provides credit for designated open space corridors or connected networks of wetlands, woodlands, wildlife habitats, wilderness, and other areas that support native species, maintain natural ecological processes, and sustain air and water resources."
+    },
+    {
+      "term": "High-hazard-potential dam",
+      "definition": "Dams assigned the high-hazard-potential classification are those whose failure or mismanagement will probably cause loss of human life."
+    },
+    {
+      "term": "Hydrology",
+      "definition": "The science dealing with the waters of the earth. A flood discharge is developed by a hydrologic study."
+    },
+    {
+      "term": "I-Codes",
+      "definition": "The series of building codes published by the International Code Council."
+    },
+    {
+      "term": "ICC",
+      "definition": "Increased Cost of Compliance coverage, a flood insurance claim provision that helps fund the cost of bringing a flood-damaged building into compliance with floodplain management standards."
+    },
+    {
+      "term": "Technical Reviewer",
+      "definition": "An individual responsible for reviewing community requests for Community Rating System credit for select activities. Reviews are provided to the Contractor."
+    },
+    {
+      "term": "Levee",
+      "definition": "A manmade structure, usually an earthen embankment, designed and constructed using sound engineering practices to contain, control, or divert floodwaters in accordance with a designated risk reduction level."
+    },
+    {
+      "term": "Levee system",
+      "definition": "The levee structure plus all appurtenant facilities (pump stations, closure devices, etc.) needed to contain, control, or divert floodwaters in accordance with a designated risk reduction level. For CRS purposes, credit is based on local activities related to the entire levee system, not just the levee structure."
+    },
+    {
+      "term": "Limit of moderate wave action (LiMWA)",
+      "definition": "The inland limit of the area affected by waves greater than 1.5 feet. Determined based on the landward limit of the 1% annual chance coastal flood that can support a 1.5-foot wave. New coastal FIRMs show the LiMWA as an informational layer; the area between this limit and the V-Zone boundary is also known as the Coastal A Zone."
+    },
+    {
+      "term": "Low-impact development (LID)",
+      "definition": "According to the U.S. Environmental Protection Agency, an approach to land development (or redevelopment) that works with nature to manage stormwater as close to its source as possible and treat stormwater as a resource rather than a waste product. Applied on a broad scale, LID can maintain or restore a watershed's hydrologic and ecological functions."
+    },
+    {
+      "term": "NAVD",
+      "definition": "North American Vertical Datum of 1988. The national datum replacing NGVD to set flood and ground elevations for FIRMs."
+    },
+    {
+      "term": "Natural floodplain functions",
+      "definition": "a) Functions of the natural or relatively undisturbed floodplain that moderate flooding, retain flood waters, reduce erosion and sedimentation, and mitigate the effects of waves and storm surges; and b) Other significant beneficial functions, including maintenance of water quality, recharge of groundwater, and provision of fish and wildlife habitat."
+    },
+    {
+      "term": "NFIP",
+      "definition": "National Flood Insurance Program."
+    },
+    {
+      "term": "NGVD",
+      "definition": "National Geodetic Vertical Datum of 1929, the national datum previously used by the NFIP (formerly known as the \"Mean Sea Level Datum of 1929\")."
+    },
+    {
+      "term": "Ponding",
+      "definition": "A flooding condition in low-lying areas caused when runoff drains to a location that has no ready outlet. Ponded water usually remains until it evaporates, seeps into the ground, or is pumped out."
+    },
+    {
+      "term": "Post-FIRM building",
+      "definition": "For insurance rating purposes, a building constructed or substantially improved after December 31, 1974, or after the effective date of the initial FIRM of a community, whichever is later. Must meet NFIP minimum Regular Program flood protection standards."
+    },
+    {
+      "term": "Pre-FIRM building",
+      "definition": "For insurance rating purposes, a building constructed or substantially improved on or before December 31, 1974, or before the effective date of the initial FIRM of the community, whichever is later. Most pre-FIRM buildings were constructed without taking flood hazard into account."
+    },
+    {
+      "term": "Registered design professional",
+      "definition": "An individual registered or licensed to practice his or her respective design profession as defined by state or jurisdiction laws where the project is to be constructed. Includes licensed professional engineers, structural engineers, architects, and registered land surveyors."
+    },
+    {
+      "term": "Regular Program",
+      "definition": "Also called the Regular Phase. The phase of community participation in the NFIP that begins on the effective date of the community's first FIRM or when the community adopts an ordinance meeting NFIP minimum requirements and adopts the technical data provided with the FIRM, whichever is earlier. Nearly all participating communities are in the Regular Program."
+    },
+    {
+      "term": "Regulatory floodplain",
+      "definition": "For CRS purposes, the flood-prone land area subject to a community's floodplain development or floodplain management regulations. Includes, at a minimum, the SFHA, but may also incorporate other areas outside the SFHA that are regulated."
+    },
+    {
+      "term": "Repetitive loss community",
+      "definition": "A community with one or more repetitive loss properties for CRS purposes."
+    },
+    {
+      "term": "Repetitive loss property",
+      "definition": "A property for which two or more NFIP losses of at least $1,000 each have been paid within any 10-year rolling period since 1978."
+    },
+    {
+      "term": "Retrofitting",
+      "definition": "Modifications to an existing building or nearby grounds to protect it from flood damage. Techniques include elevation, dry and wet floodproofing, and protection from sewer backup."
+    },
+    {
+      "term": "Riparian ecosystem",
+      "definition": "A distinct association of flora, fauna, and soil occurring along a river, stream, lake, ocean, or other body of water and dependent upon high water tables and occasional flooding. Often exhibits high biological productivity and species diversity; may extend beyond the SFHA."
+    },
+    {
+      "term": "Riverine",
+      "definition": "Of or produced by a river or stream. Riverine floodplains have readily identifiable channels. Floodway maps can only be prepared for riverine floodplains."
+    },
+    {
+      "term": "Sand dunes",
+      "definition": "Naturally occurring accumulations of sand that form ridges or mounds landward of a beach."
+    },
+    {
+      "term": "Sensitive area",
+      "definition": "An area defined by state or local regulations as deserving special protection because of its unique natural features or value as habitat. Subject to more restrictive development regulations than other floodplains or wetlands and may extend beyond the SFHA."
+    },
+    {
+      "term": "Severe Repetitive Loss property",
+      "definition": "As defined in the Flood Insurance Reform Act of 2004, those 1–4 family properties that have had four or more claims of more than $5,000 or two to three claims that cumulatively exceed the building's value. For CRS, non-residential buildings that meet the same criteria are considered Severe Repetitive Loss properties."
+    },
+    {
+      "term": "SFHA",
+      "definition": "Special Flood Hazard Area (see definition)."
+    },
+    {
+      "term": "Sheet flow",
+      "definition": "A flooding condition where there is moving water but no identifiable channel. Depths are usually shallow (less than 3 feet) and may have high velocity, as on alluvial fans."
+    },
+    {
+      "term": "Special Flood Hazard Area (SFHA)",
+      "definition": "The base floodplain delineated on a FIRM that a community must regulate under NFIP requirements. Mapped as Zone A; in coastal situations, Zone V is also part of the SFHA. Included in the community's regulatory floodplain."
+    },
+    {
+      "term": "Special flood-related hazards",
+      "definition": "For CRS purposes, terrain features or special hazards that accompany or aggravate flooding, as listed in Section 401."
+    },
+    {
+      "term": "Stakeholders",
+      "definition": "Floodplain residents, business leaders, insurance agents, civic groups, academia, non-profit organizations, major employers, managers of critical facilities, farmers, landowners, developers, and others affected by flooding or whose actions can help prevent or reduce flood losses."
+    },
+    {
+      "term": "Storage basins",
+      "definition": "For CRS, includes all constructed stormwater runoff detention or retention facilities on public or private property, including onsite detention, retention, or infiltration facilities required for new development."
+    },
+    {
+      "term": "Substantial damage",
+      "definition": "Damage of any origin sustained by a building whereby the cost of restoring the building to its before-damage condition would equal or exceed 50% of the market value of the building before the damage occurred."
+    },
+    {
+      "term": "Substantial improvement",
+      "definition": "Any reconstruction, rehabilitation, addition, or other improvement to a building, the cost of which equals or exceeds 50% of the market value of the building before the start of construction of the improvement."
+    },
+    {
+      "term": "Surcharge",
+      "definition": "An increase in flood elevation due to obstruction of the floodplain that reduces its conveyance capacity."
+    },
+    {
+      "term": "Tsunami",
+      "definition": "A wave caused by an underwater earthquake, landslide, or volcano that can raise water levels on the ocean shore to levels higher than the base flood elevation. Discussed in more detail in Section 401."
+    },
+    {
+      "term": "Uncertain flow paths",
+      "definition": "Channels that move during a flood, including alluvial fans and moveable bed streams. Discussed in more detail in Section 400."
+    },
+    {
+      "term": "V Zone",
+      "definition": "See \"Zone V.\""
+    },
+    {
+      "term": "Variable",
+      "definition": "A term used in the formulae for calculating CRS credit. For each element, there are one or more variables, which often include the acronym for the element."
+    },
+    {
+      "term": "X Zone",
+      "definition": "See \"Zone X.\""
+    },
+    {
+      "term": "Zone A",
+      "definition": "The Special Flood Hazard Area (except coastal V Zones) shown on a community’s Flood Insurance Rate Map (FIRM). There are seven types of A Zones:",
+      "subdefinitions": [
+        {
+          "term": "A",
+          "definition": "SFHA where no base flood elevation is provided."
+        },
+        {
+          "term": "A#",
+          "definition": "Numbered A Zones (e.g., A7 or A14), SFHA where an older FIRM shows a base flood elevation in relation to a national datum."
+        },
+        {
+          "term": "AE",
+          "definition": "SFHA where base flood elevations are provided; used on newer FIRMs instead of A# Zones."
+        },
+        {
+          "term": "AO",
+          "definition": "SFHA with sheet flow, ponding, or shallow flooding; base flood depths (feet above grade) are provided."
+        },
+        {
+          "term": "AH",
+          "definition": "Shallow flooding SFHA; base flood elevations in relation to a national datum are provided."
+        },
+        {
+          "term": "AR",
+          "definition": "Temporary designation for an area where a flood control system that no longer provides base-flood protection is expected to be improved to do so again in the future; considered part of the SFHA/regulatory floodplain."
+        },
+        {
+          "term": "A99",
+          "definition": "Mapped floodplain that will be protected by a federal flood-protection system where construction has reached specified statutory milestones; considered part of the SFHA/regulatory floodplain."
+        }
+      ]
+    },
+    {
+      "term": "Zone B",
+      "definition": "Area of moderate flood hazard, usually depicted on older FIRMs as between the limits of the base and 500-year floods of the primary source of flooding. May have local, shallow flooding problems. Also used to designate areas protected by levees and base floodplains of little hazard (e.g., average depths < 1 foot)."
+    },
+    {
+      "term": "Zone C",
+      "definition": "Area of minimal flood hazard, usually depicted on older FIRMs as above the 500-year flood level of the primary source of flooding. May have local, shallow flooding problems that do not meet the criteria to be mapped as an SFHA, especially ponding and local drainage problems."
+    },
+    {
+      "term": "Zone D",
+      "definition": "Area of undetermined but possible flood hazard."
+    },
+    {
+      "term": "Zone V",
+      "definition": "The Special Flood Hazard Area subject to coastal high hazard flooding. There are three types of V Zones: V, V#, and VE; they correspond to the A-Zone designations."
+    },
+    {
+      "term": "Zone X",
+      "definition": "On newer FIRMs, Zones B and C are shown as Zone X. Shaded Zone X corresponds to Zone B; unshaded Zone X corresponds to Zone C."
+    }
+  ],
+  "acronyms": [
+    {
+      "term": "aC",
+      "section": "542",
+      "definition": "area of the community"
+    },
+    {
+      "term": "aCIP",
+      "section": "542",
+      "definition": "area covered by the watershed-based analysis"
+    },
+    {
+      "term": "AGA",
+      "section": "712",
+      "definition": "annual growth adjustment"
+    },
+    {
+      "term": "AMD",
+      "section": "442",
+      "definition": "additional map data"
+    },
+    {
+      "term": "aSFHA",
+      "section": "402",
+      "definition": "area of the Special Flood Hazard Area"
+    },
+    {
+      "term": "ASFPM",
+      "section": "431",
+      "definition": "Association of State Floodplain Managers"
+    },
+    {
+      "term": "aSFT",
+      "section": "413",
+      "definition": "the area of the Special Flood Hazard Area for the community at the time of adoption of a study"
+    },
+    {
+      "term": "aW",
+      "section": "452",
+      "definition": "area of a community's watersheds"
+    },
+    {
+      "term": "AW-nnn",
+      "section": "230",
+      "definition": "Activity Worksheet number nnn"
+    },
+    {
+      "term": "aXXX",
+      "section": "402",
+      "definition": "area affected by element XXX"
+    },
+    {
+      "term": "bAR",
+      "section": "522",
+      "definition": "number of buildings acquired or relocated"
+    },
+    {
+      "term": "bARSF",
+      "section": "523",
+      "definition": "buildings acquired or relocated in the Special Flood Hazard Area"
+    },
+    { "term": "BC", "section": "432", "definition": "building code" },
+    {
+      "term": "BCEGS",
+      "section": "211",
+      "definition": "Building Code Effectiveness Grading Schedule"
+    },
+    {
+      "term": "bCF",
+      "section": "522",
+      "definition": "number of critical facilities acquired or relocated"
+    },
+    {
+      "term": "BFE",
+      "section": "120",
+      "definition": "base flood elevation"
+    },
+    {
+      "term": "bLF",
+      "section": "623",
+      "definition": "number of buildings affected by levee failure"
+    },
+    {
+      "term": "BMM",
+      "section": "442",
+      "definition": "benchmark maintenance"
+    },
+    {
+      "term": "BMP",
+      "section": "452",
+      "definition": "best management practices (for stormwater quality)"
+    },
+    {
+      "term": "bPO",
+      "section": "302",
+      "definition": "number of post-FIRM buildings in the Special Flood Hazard Area"
+    },
+    {
+      "term": "bPR",
+      "section": "302",
+      "definition": "number of pre-FIRM buildings in the Special Flood Hazard Area"
+    },
+    {
+      "term": "bRL",
+      "section": "522",
+      "definition": "number of buildings on the repetitive loss list acquired or relocated"
+    },
+    {
+      "term": "bSF",
+      "section": "302",
+      "definition": "number of buildings in the Special Flood Hazard Area"
+    },
+    {
+      "term": "bSRL",
+      "section": "522",
+      "definition": "number of Severe Repetitive Loss Properties acquired or relocated"
+    },
+    {
+      "term": "bVZ",
+      "section": "522",
+      "definition": "number of buildings acquired or relocated within V or coastal A Zones"
+    },
+    {
+      "term": "bXXX",
+      "section": "302",
+      "definition": "number of buildings affected by element XXX"
+    },
+    {
+      "term": "CAZ",
+      "section": "432",
+      "definition": "coastal A Zone regulations"
+    },
+    {
+      "term": "CBRA",
+      "section": "320",
+      "definition": "Coastal Barrier Resources Act"
+    },
+    {
+      "term": "CBRS",
+      "section": "320",
+      "definition": "Coastal Barrier Resources System areas"
+    },
+    {
+      "term": "CC-nnn",
+      "section": "230",
+      "definition": "Community Certification number nnn"
+    },
+    {
+      "term": "CC-nnnEHP",
+      "section": "507",
+      "definition": "Community Certification of Compliance with Environmental and Historic Preservation Requirements number nnn"
+    },
+    {
+      "term": "CDR",
+      "section": "542",
+      "definition": "channel and basin debris removal"
+    },
+    {
+      "term": "CEO",
+      "section": "212",
+      "definition": "Chief Executive Officer of a community"
+    },
+    {
+      "term": "CFM",
+      "section": "432",
+      "definition": "Certified Floodplain Manager"
+    },
+    {
+      "term": "CFP",
+      "section": "612",
+      "definition": "critical facilities planning"
+    },
+    {
+      "term": "CFR",
+      "section": "",
+      "definition": "Code of Federal Regulations (in the Federal Register)"
+    },
+    {
+      "term": "CER",
+      "section": "432",
+      "definition": "coastal erosion regulations"
+    },
+    {
+      "term": "CGA",
+      "section": "712",
+      "definition": "county growth adjustment"
+    },
+    {
+      "term": "CGR",
+      "section": "712",
+      "definition": "county 10-year growth rate"
+    },
+    {
+      "term": "CIP",
+      "section": "542",
+      "definition": "capital improvement plan"
+    },
+    {
+      "term": "CORS",
+      "section": "442",
+      "definition": "Continuously Operating Reference Stations"
+    },
+    {
+      "term": "CP",
+      "section": "372",
+      "definition": "coverage improvement plan"
+    },
+    {
+      "term": "CPI",
+      "section": "372",
+      "definition": "coverage improvement plan implementation"
+    },
+    {
+      "term": "CRS",
+      "section": "Foreword",
+      "definition": "Community Rating System."
+    },
+    {
+      "term": "CSI",
+      "section": "432",
+      "definition": "cumulative substantial improvement regulations"
+    },
+    {
+      "term": "cT",
+      "section": "720",
+      "definition": "community's total credit points under the Community Rating System"
+    },
+    {
+      "term": "cXXX",
+      "section": "223",
+      "definition": "credit points for element or Activity XXX"
+    },
+    {
+      "term": "DCF",
+      "section": "632",
+      "definition": "dam failure critical facilities planning"
+    },
+    {
+      "term": "DFH",
+      "section": "342",
+      "definition": "disclosure of the flood hazard by real estate agents"
+    },
+    {
+      "term": "DFIRM",
+      "section": "411",
+      "definition": "digital Flood Insurance Rate Map"
+    },
+    {
+      "term": "DFO",
+      "section": "632",
+      "definition": "dam failure response operations"
+    },
+    {
+      "term": "DFR",
+      "section": "632",
+      "definition": "dam failure threat recognition system"
+    },
+    {
+      "term": "DFW",
+      "section": "632",
+      "definition": "dam failure warning"
+    },
+    {
+      "term": "DL",
+      "section": "432",
+      "definition": "development limitations"
+    },
+    {
+      "term": "DOH",
+      "section": "342",
+      "definition": "disclosure of other hazards, such as subsidence"
+    },
+    {
+      "term": "DR",
+      "section": "422",
+      "definition": "deed restrictions placed on open space properties"
+    },
+    {
+      "term": "DS",
+      "section": "452",
+      "definition": "design storms used in stormwater management regulations"
+    },
+    {
+      "term": "DU",
+      "section": "711",
+      "definition": "dwelling units counted toward the county growth rate"
+    },
+    {
+      "term": "EC",
+      "section": "312",
+      "definition": "maintaining FEMA Elevation Certificates"
+    },
+    {
+      "term": "ECPO",
+      "section": "312",
+      "definition": "maintaining post-FIRM elevation certificates"
+    },
+    {
+      "term": "ECPR",
+      "section": "312",
+      "definition": "maintaining pre-FIRM elevation certificates"
+    },
+    {
+      "term": "EDM",
+      "section": "442",
+      "definition": "erosion data maintenance"
+    },
+    {
+      "term": "EMI",
+      "section": "362",
+      "definition": "the Emergency Management Institute of the Federal Emergency Management Agency"
+    },
+    {
+      "term": "ENL",
+      "section": "432",
+      "definition": "regulations limiting enclosures below elevated floors"
+    },
+    {
+      "term": "ENLCAZ",
+      "section": "432",
+      "definition": "enforcing enclosure regulations within CAZ-credited areas (bonus credit)"
+    },
+    {
+      "term": "ESC",
+      "section": "452",
+      "definition": "erosion and sedimentation control regulations"
+    },
+    {
+      "term": "EWD",
+      "section": "612",
+      "definition": "emergency warning dissemination"
+    },
+    {
+      "term": "FAA",
+      "section": "362",
+      "definition": "financial assistance advice"
+    },
+    {
+      "term": "FDN",
+      "section": "432",
+      "definition": "foundation protection regulations"
+    },
+    {
+      "term": "FEMA",
+      "section": "Foreword",
+      "definition": "The Federal Emergency Management Agency, part of the Department of Homeland Security. Most of the NFIP field work and community coordination is done by the 10 Regional Offices of FEMA."
+    },
+    {
+      "term": "FIA",
+      "section": "372",
+      "definition": "flood insurance coverage assessment"
+    },
+    {
+      "term": "FIRM",
+      "section": "Foreword",
+      "definition": "Flood Insurance Rate Map; published by FEMA and provided to communities."
+    },
+    {
+      "term": "FM",
+      "section": "442",
+      "definition": "Flood Insurance Rate Map maintenance"
+    },
+    {
+      "term": "FMP",
+      "section": "511",
+      "definition": "floodplain management planning"
+    },
+    {
+      "term": "FPB",
+      "section": "532",
+      "definition": "flood protection level before the project was constructed"
+    },
+    {
+      "term": "FPI",
+      "section": "532",
+      "definition": "flood protection improvement"
+    },
+    {
+      "term": "FPP",
+      "section": "532",
+      "definition": "flood protection provided by the project"
+    },
+    { "term": "FRB", "section": "432", "definition": "freeboard" },
+    {
+      "term": "FRO",
+      "section": "612",
+      "definition": "flood response operations"
+    },
+    {
+      "term": "FRP",
+      "section": "332",
+      "definition": "flood response preparations"
+    },
+    {
+      "term": "FTR",
+      "section": "612",
+      "definition": "flood threat recognition system"
+    },
+    {
+      "term": "FWS",
+      "section": "412",
+      "definition": "more restrictive floodway standard"
+    },
+    {
+      "term": "GIS",
+      "section": "442",
+      "definition": "geographic information system"
+    },
+    {
+      "term": "HSS",
+      "section": "412",
+      "definition": "higher study standard"
+    },
+    {
+      "term": "ICC",
+      "section": "432",
+      "definition": "Increased Cost of Compliance (a claim provision of a National Flood Insurance Program policy)"
+    },
+    {
+      "term": "ISO",
+      "section": "114",
+      "definition": "Insurance Services Office, Inc."
+    },
+    {
+      "term": "LCF",
+      "section": "622",
+      "definition": "levee failure critical facilities planning"
+    },
+    {
+      "term": "LDP",
+      "section": "432",
+      "definition": "local drainage protection"
+    },
+    { "term": "LEV", "section": "412", "definition": "leverage" },
+    {
+      "term": "LFO",
+      "section": "622",
+      "definition": "levee failure response operations"
+    },
+    {
+      "term": "LFR",
+      "section": "622",
+      "definition": "levee failure threat recognition system"
+    },
+    {
+      "term": "LFW",
+      "section": "622",
+      "definition": "levee failure warning"
+    },
+    {
+      "term": "LIB",
+      "section": "352",
+      "definition": "flood protection library"
+    },
+    {
+      "term": "LID",
+      "section": "452",
+      "definition": "low-impact development"
+    },
+    {
+      "term": "LiMWA",
+      "section": "432",
+      "definition": "limit of moderate wave action"
+    },
+    { "term": "LM", "section": "622", "definition": "levee maintenance" },
+    {
+      "term": "LOMA",
+      "section": "321",
+      "definition": "Letter of Map Amendment"
+    },
+    {
+      "term": "LOMR",
+      "section": "321",
+      "definition": "Letter of Map Revision"
+    },
+    {
+      "term": "LPD",
+      "section": "352",
+      "definition": "locally pertinent documents for a library"
+    },
+    {
+      "term": "LSI",
+      "section": "432",
+      "definition": "lower substantial improvement threshold"
+    },
+    { "term": "LZ", "section": "422", "definition": "low-density zoning" },
+    {
+      "term": "MAP",
+      "section": "412",
+      "definition": "mapping credit (the sum of all 410 elements)"
+    },
+    {
+      "term": "MAPSH",
+      "section": "412",
+      "definition": "mapping credit for special flood-related hazards"
+    },
+    {
+      "term": "MHP",
+      "section": "432",
+      "definition": "manufactured home park regulations"
+    },
+    {
+      "term": "MI",
+      "section": "322",
+      "definition": "providing map information and Flood Insurance Rate Map data"
+    },
+    {
+      "term": "MLS",
+      "section": "342",
+      "definition": "Multiple Listing Service"
+    },
+    {
+      "term": "NAVD",
+      "section": "120",
+      "definition": "North American Vertical Datum"
+    },
+    {
+      "term": "nCDC",
+      "section": "542",
+      "definition": "total number of conveyance system components in the community"
+    },
+    {
+      "term": "nCDR",
+      "section": "542",
+      "definition": "number of inspected and maintained conveyance system components"
+    },
+    {
+      "term": "NFIP",
+      "section": "Foreword",
+      "definition": "National Flood Insurance Program."
+    },
+    {
+      "term": "NFOS",
+      "section": "422",
+      "definition": "natural functions open space"
+    },
+    {
+      "term": "NFP",
+      "section": "512",
+      "definition": "natural floodplain functions plan"
+    },
+    {
+      "term": "NGS",
+      "section": "442",
+      "definition": "National Geodetic Survey"
+    },
+    {
+      "term": "NGVD",
+      "section": "120",
+      "definition": "National Geodetic Vertical Datum"
+    },
+    {
+      "term": "NIMS",
+      "section": "620",
+      "definition": "National Incident Management System"
+    },
+    {
+      "term": "NOAA",
+      "section": "612",
+      "definition": "National Oceanic and Atmospheric Administration"
+    },
+    { "term": "NS", "section": "412", "definition": "new flood study" },
+    {
+      "term": "nSBC",
+      "section": "542",
+      "definition": "total number of public and private storage basins in the community"
+    },
+    {
+      "term": "nSBM",
+      "section": "542",
+      "definition": "number of storage basins inspected and maintained by the community"
+    },
+    {
+      "term": "NSP",
+      "section": "422",
+      "definition": "natural shoreline protection"
+    },
+    {
+      "term": "NSRS",
+      "section": "442",
+      "definition": "National Spatial Reference System"
+    },
+    {
+      "term": "ODR",
+      "section": "342",
+      "definition": "other disclosure requirements"
+    },
+    {
+      "term": "OHS",
+      "section": "432",
+      "definition": "other higher regulatory standards"
+    },
+    { "term": "OP", "section": "332", "definition": "outreach projects" },
+    {
+      "term": "OSI",
+      "section": "422",
+      "definition": "open space incentives"
+    },
+    {
+      "term": "OSP",
+      "section": "422",
+      "definition": "open space preservation"
+    },
+    { "term": "PB", "section": "532", "definition": "protected buildings" },
+    {
+      "term": "PBi",
+      "section": "532",
+      "definition": "protection credit for building “i”"
+    },
+    {
+      "term": "PCF",
+      "section": "432",
+      "definition": "regulations that protect critical facilities"
+    },
+    {
+      "term": "PPA",
+      "section": "362",
+      "definition": "property protection advice"
+    },
+    {
+      "term": "PPI",
+      "section": "332",
+      "definition": "program for public information"
+    },
+    {
+      "term": "PPV",
+      "section": "362",
+      "definition": "flood protection site visit"
+    },
+    {
+      "term": "PSM",
+      "section": "542",
+      "definition": "problem site maintenance"
+    },
+    {
+      "term": "PUB",
+      "section": "452",
+      "definition": "stormwater facilities subject to public maintenance"
+    },
+    {
+      "term": "RA",
+      "section": "432",
+      "definition": "regulations administration"
+    },
+    {
+      "term": "REB",
+      "section": "342",
+      "definition": "real estate agent brochure (explains flood hazards)"
+    },
+    {
+      "term": "RLAA",
+      "section": "512",
+      "definition": "repetitive loss area analysis"
+    },
+    {
+      "term": "rXXX",
+      "section": "222",
+      "definition": "ratio of the buildings or area affected by XXX"
+    },
+    {
+      "term": "SBC",
+      "section": "542",
+      "definition": "storage basins in the community"
+    },
+    {
+      "term": "SBM",
+      "section": "542",
+      "definition": "storage basin maintenance"
+    },
+    {
+      "term": "SDR",
+      "section": "542",
+      "definition": "stream dumping regulations"
+    },
+    {
+      "term": "SDS",
+      "section": "632",
+      "definition": "state dam safety program"
+    },
+    {
+      "term": "SFHA",
+      "section": "Foreword",
+      "definition": "Special Flood Hazard Area; the floodplain delineated on the FIRM as A Zones and V Zones."
+    },
+    {
+      "term": "SHOS",
+      "section": "422",
+      "definition": "open space preservation in areas subject to special flood-related hazards"
+    },
+    {
+      "term": "SHR",
+      "section": "432",
+      "definition": "special flood-related hazards regulations"
+    },
+    {
+      "term": "SMR",
+      "section": "452",
+      "definition": "stormwater management regulations"
+    },
+    {
+      "term": "SR",
+      "section": "412",
+      "definition": "state review of a new flood study"
+    },
+    {
+      "term": "SRC",
+      "section": "612",
+      "definition": "StormReady community"
+    },
+    {
+      "term": "STK",
+      "section": "332",
+      "definition": "stakeholder delivery of outreach projects"
+    },
+    {
+      "term": "SZ",
+      "section": "452",
+      "definition": "size of development subject to stormwater management"
+    },
+    {
+      "term": "TA",
+      "section": "372",
+      "definition": "technical assistance"
+    },
+    { "term": "TNG", "section": "362", "definition": "training credit" },
+    {
+      "term": "TRC",
+      "section": "612",
+      "definition": "TsunamiReady community"
+    },
+    {
+      "term": "TUB",
+      "section": "532",
+      "definition": "barrier, levee, or floodwall technique used to protect a single building"
+    },
+    {
+      "term": "TUC",
+      "section": "532",
+      "definition": "channel modification or other techniques used to protect buildings"
+    },
+    {
+      "term": "TUD",
+      "section": "532",
+      "definition": "dry floodproofing technique used to protect a building"
+    },
+    {
+      "term": "TUE",
+      "section": "532",
+      "definition": "elevation technique used to protect a building"
+    },
+    {
+      "term": "TUF",
+      "section": "532",
+      "definition": "storage facility technique used to protect buildings"
+    },
+    {
+      "term": "TUi",
+      "section": "532",
+      "definition": "technique used to protect building “i”"
+    },
+    {
+      "term": "TUS",
+      "section": "532",
+      "definition": "sewer backup prevention technique used to protect buildings"
+    },
+    {
+      "term": "TUW",
+      "section": "532",
+      "definition": "wet floodproofing technique used to protect a building"
+    },
+    {
+      "term": "URL",
+      "section": "352",
+      "definition": "universal resource locator"
+    },
+    {
+      "term": "WEB",
+      "section": "352",
+      "definition": "flood protection website"
+    },
+    {
+      "term": "WMP",
+      "section": "452",
+      "definition": "watershed master plan"
+    },
+    {
+      "term": "WQ",
+      "section": "452",
+      "definition": "stormwater management regulations for water quality"
+    },
+    {
+      "term": "XXX",
+      "section": "",
+      "definition": "element acronym or variable number"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "group": "100",
+  "nodes": [
+    {
+      "type": "content",
+      "anchor_type": "page",
+      "crs_id": "foreword",
+      "node_id": "000",
+      "group": "000",
+      "level": 0,
+      "title": "Foreword"
+    },
+    {
+      "type": "content",
+      "anchor_type": "section",
+      "node_id": "000-1",
+      "parent_node": "000",
+      "group": "000",
+      "level": 1,
+      "title": "Using the “Coordinator’s Manual”"
+    },
+    {
+      "type": "content",
+      "anchor_type": "section",
+      "node_id": "000-2",
+      "parent_node": "000",
+      "group": "000",
+      "level": 1,
+      "title": "More about the “Coordinator’s Manual”"
+    }
+  ]
+}

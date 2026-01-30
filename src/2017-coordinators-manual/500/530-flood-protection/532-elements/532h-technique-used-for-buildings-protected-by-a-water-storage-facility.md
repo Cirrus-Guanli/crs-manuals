@@ -1,0 +1,6 @@
+---
+section_id: "532h"
+section_title: Technique used for buildings protected by a water storage facility
+is_element: true
+abbr: TUF
+---

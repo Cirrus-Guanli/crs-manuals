@@ -1,0 +1,85 @@
+---
+layout: layouts/base.liquid
+---
+
+{%- assign series_nodes = nodes | where: "group", node.group | sort: "node_id" -%}
+
+{%- comment -%} Level-1 pages under this series (real pages only) {%- endcomment -%}
+{%- assign seriesTopContents = series_nodes
+  | where: "type", "content"
+  | where: "level", 1
+  | sort: "node_id" -%}
+
+{%- comment -%} Split into singles (…01–…09) and majors (…10, …20, …30…) {%- endcomment -%}
+{%- assign singles = "" | split: "" -%}
+{%- assign majors  = "" | split: "" -%}
+{%- for p in seriesTopContents -%}
+  {%- assign last = p.node_id | slice: -1, 1 -%}
+  {%- if last != "0" -%}
+    {%- assign singles = singles | push: p -%}
+  {%- else -%}
+    {%- assign majors  = majors  | push: p -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign seriesFigures = series_nodes | where: "type", "figure" | sort: "node_id" -%}
+{%- assign allTables = nodes | where: "type", "table" | sort: "node_id" -%}
+{%- assign seriesTables = series_nodes | where: "type", "table"  | sort: "node_id" -%}
+
+{{ nodes | json }}
+
+<dl>
+  <dt>Contents of Series {{ section_id }}</dt>
+  <dd>
+    <ul class="list-unstyled" role="list">
+      {%- if singles.size > 0 -%}
+        <li class="mt-2">
+          <span class="link-primary text-decoration-underline">{{ node.title }}</span>
+          <ul class="list-unstyled ms-3 {% if forloop.last %}mb-4{% else %}mb-3{% endif %}">
+            {%- for s in singles -%}
+              <li><a href="{{ s.permalink }}">{{ s.title }}</a></li>
+            {%- endfor -%}
+          </ul>
+        </li>
+      {%- endif -%}
+      {% for section in majors %}
+        <li class="mt-2">
+          <a href="{{ section.permalink }}">{{ section.title }}</a>
+          {%- assign children = series_nodes
+              | where: "type", "content"
+              | where: "parent_node", section.node_id
+              | sort: "node_id" -%}
+          {% if children.size %}
+            <ul class="list-unstyled ms-3 {% if forloop.last %}mb-4{% else %}mb-3{% endif %}">
+              {% for child in children %}
+                <li><a href="{{ child.permalink }}">{{ child.title }}</a></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </dd>
+
+  {% if seriesFigures.size > 0 %}
+    <dt>List of Figures</dt>
+    <dd {% if seriesTables.size > 0 %}class="mb-4"{% endif %}>
+      <ul class="list-unstyled mt-2">
+        {% for figure in seriesFigures %}
+          <li><a href="{{ figure.permalink }}">{{ figure.figure_id }} {{ figure.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </dd>
+  {% endif %}
+
+  {% if seriesTables.size > 0 %}
+    <dt>List of Tables</dt>
+    <dd>
+      <ul class="list-unstyled mt-2">
+        {% for table in seriesTables %}
+          <li><a href="{{ table.permalink }}">{{ table.table_id }} {{ table.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </dd>
+  {% endif %}
+</dl>
